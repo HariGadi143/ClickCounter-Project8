@@ -1,0 +1,46 @@
+.mainContainer {
+  max-width: 1400px;
+  margin: 0px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.counterContainer {
+  height: 100%;
+  padding: 40px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f1f5f8;
+  border-radius: 10px;
+  margin: 40px;
+}
+
+.counterContainer h1 {
+  color: #2d3a35;
+  font-weight: 500;
+}
+
+.counterContainer h1 span {
+  color: #c20a72;
+}
+
+.counterContainer p {
+  color: #2d3a35;
+  font-weight: 400;
+}
+.counterContainer button {
+  cursor: pointer;
+  outline: none;
+  color: #ffffff;
+  background-color: rgb(17, 148, 230);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-size: 20px;
+}
